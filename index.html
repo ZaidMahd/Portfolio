@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="/images/fevicon.png" type="image/x-icon">
   </head>
 
   <body>
@@ -26,17 +27,10 @@
       <nav class="navbar">
         <ul class="navbar-lists">
           <li><a class="navbar-link home-link" href="#" >Home</a></li>
-          <li><a class="navbar-link about-link" href="/about.html">About</a></li>
-          <li><a class="navbar-link service-link" href="/service.html">Services</a></li>
+          <li><a class="navbar-link about-link" href="#about">About</a></li>
+          <li><a class="navbar-link service-link" href="#service">Services</a></li>
           <li><a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a></li>
-          <li>
-            <a
-              class="navbar-link"
-              href="/contact.html"
-              target="_blank"
-              >Contact</a
-            >
-          </li>
+          <li><a class="navbar-link contact-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -82,7 +76,7 @@
     <!-- ======================================== 
            Bio Data Section Start  
     ========================================  -->
-    <section class="section-biodata section">
+    <a name="about"></a><section class="section-biodata section" >
       <div class="container grid grid-two-col">
         <div class="bio-image">
           <img src="images/biodata.png" alt="bio data image" />
@@ -215,7 +209,7 @@
     <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section class="section-services section section--hidden">
+    <a name="service"></a><section class="section-services section section--hidden">
       <div class="container">
         <h2 class="common-heading">Service Offers</h2>
         <p>
@@ -538,11 +532,11 @@
           Our  Cotnact Us Section   
     ========================================  -->
 
-      <section class="section section-contact ">
+    <a name="contact"></a><section class="section section-contact ">
         <div class="container">
           <h2 class="common-heading">contact us</h2>
         </div>
-
+        
         <div class="section-contact-main contact-container">
           <form action="https://formspree.io/f/xnqwzoro"
   method="POST">
@@ -619,7 +613,7 @@
             <ion-icon class="icons" name="logo-instagram"></ion-icon>
           </a>
 
-            <a href="https://github.com/ZaidMahd" target="_blank">
+            <a href="https://discord.gg/MdScmCsua6" target="_blank">
            <ion-icon class="icons" name="logo-github"></ion-icon>
           </a>
 
