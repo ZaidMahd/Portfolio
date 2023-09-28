@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --heading: rgb(0 10 45);
   --para: #777777;
@@ -1035,6 +1039,11 @@ Media Queries Section
 
 /* Below 560px  */
 @media (max-width: 35em) {
+  .container {
+    max-width: 560px;
+  }
+
+
   .header {
     padding: 0 3.2rem;
   }
